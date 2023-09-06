@@ -11,9 +11,9 @@ resultado1 = Limit(calculaLimite(x), x, 0).doit()
 resultado2 = Limit(calculaLimite(x), x, oo).doit()
 resultado3 = Limit(calculaLimite(x), x, (-oo)).doit()
 
-print(resultado1)
-print(resultado2)
-print(resultado3)
+print("Limite com x tendendo a 0 = ",resultado1)
+print("Limite com x tendendo a mais oo = ",resultado2)
+print("Limite com x tendendo a menos oo = ", resultado3)
 
 
 
